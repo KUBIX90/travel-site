@@ -14,5 +14,15 @@
 	&__icon{
 		margin-right:1rem;
 		
+		@mixin atSmall{
+		position:relative;
+		top:8px
+		}
+		
+	}
+	
+	&__blue{
+		color:$mainBlue;
+		
 	}
 }

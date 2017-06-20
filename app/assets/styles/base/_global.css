@@ -4,11 +4,7 @@
 
 p {
 	
-	line-height:1.6;
-		
-		@mixin atSmall{
-			font-size:1.125;
-		}
+	line-height:1.6rem;
 }
 
 p a {

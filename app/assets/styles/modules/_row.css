@@ -2,13 +2,13 @@
 	
 	@mixin clearFix;
 	
+	&__t-padding{
+		padding-top:80px;
+	}
+	
 	
 	&__gutters{
 		margin-right:-65px;
-	}
-	
-	__gutters-large{
-		margin:-100px;
 	}
 	
 	&__gutters > div{
@@ -38,5 +38,19 @@
 	
 	
 }
+
+/*begin equal height rule*/
+
+	&__equal-height-at-medium{
+		@mixin atMedium{
+				display:flex;
+		}
+		
+		& > div {
+			float:none;
+			display:flex;	
+		}
+		
+	}
 	
 }
