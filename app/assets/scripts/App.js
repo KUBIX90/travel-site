@@ -1,2 +1,3 @@
-function person(
-console.log("hello"))
+import MobileMenu from "./modules/MobileMenu";
+
+var mobileMenu = new MobileMenu();
