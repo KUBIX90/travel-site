@@ -10,6 +10,10 @@
 		
 			max-width:976px;
 		}
+		
+		&__narrow{
+			max-width:470px;
+		}
 	
 	.wrapper{
 		
@@ -36,4 +40,5 @@
 			padding-right:18px;
 		}
 	}
+	
 }

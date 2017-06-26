@@ -25,4 +25,8 @@
 		color:$mainBlue;
 		
 	}
+	
+	&__margin-less{
+		margin-bottom:1.3rem;
+	}
 }

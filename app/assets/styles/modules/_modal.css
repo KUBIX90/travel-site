@@ -1,0 +1,46 @@
+.modal{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:rgba(255,255,255,.90);
+	z-index:5;
+	opacity:0;
+	visibility:hidden;
+	transition: all .5s ease-out;
+	transform:scale(1.2); 
+	
+	&__description{
+		text-align:center;
+		font-size:1.3rem;
+		line-height:2rem;
+	}
+	
+	&__close{
+		position:absolute;
+		top:15px;
+		right:15px;
+		font-size:1.5rem;
+		transform:scaleX(1.2);
+		color:$mainBlue;
+		cursor:pointer;
+		
+	}
+	
+	&__inner{
+		position:absolute;
+		width:100%;
+	}
+	
+	&__is-visible{
+		opacity:1;
+		visibility:visible;
+		transform:scale(1);
+	}
+}
+
+.modal__close :hover{
+	color:$mainOrange;
+	
+}
