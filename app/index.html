@@ -9,6 +9,7 @@
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
 	
 	<link rel="stylesheet" href="temp/styles/styles.css">
+	<script src="temp/scripts/Vendor.js"></script>
   
   </head>
 <body>
@@ -60,14 +61,14 @@
 		<h2 class="headline headline__center headline__light headline__b-margin-small">The first trip we planned<strong> was our own.</strong></h2>
 		<h3 class="headline headline__center headline__orange headline__small headline__narrow headline__light headline__b-margin-large">Ever since, we&rsquo;ve been working to make travel<strong> better for everyone.</strong></h3>
 			<div class="wrapper wrapper__medium wrapper__b-margin">	
-				<img src="assets/images/first-trip.jpg" alt="Couple walking down a street.">
+				<img class="lazyload" data-srcset="assets/images/first-trip.jpg" alt="Couple walking down a street.">
 			</div>
 			<div class="row row__gutters">
 				<div class="row__medium-4">
 					<Picture>
 						<source srcset="assets/images/our-start.jpg" media="(min-width:1020px)">
 						<source srcset="assets/images/our-start-portrait.jpg" media="(min-width:800px)">
-						<img src="assets/images/our-start-landscape.jpg" alt="Our founder, Jane Doe">
+						<img class="lazyload" data-srcset="assets/images/our-start-landscape.jpg" alt="Our founder, Jane Doe">
 					</picture>
 				</div>
 				<div class="row__medium-8">
@@ -117,7 +118,7 @@
 	</div>
   </div>
 
-  <div id="testimonials" class="page-section page-section__testimonials" data-matching-link="#testimonials-link">
+  <div id="testimonials" class="page-section page-section__testimonials lazyload" data-matching-link="#testimonials-link">
 		<div class="wrapper wrapper__no-padding-until-medium">
 			
 			<h2 class="section-title section-title__blue"><img class="section-title__icon" src="assets/images/icons/comment.svg">Real <strong>Testimonials</strong></h2>
@@ -126,7 +127,7 @@
 				<div class="row__medium-4">
 					<div class="testimonial">
 						<div class="testimonial__photo">
-							<img src="assets/images/testimonial-jane.jpg">
+							<img class="lazyload" data-srcset="assets/images/testimonial-jane.jpg">
 						</div>
 							<h3 class="testimonial__title">Jane Doe</h3>
 							<h4 class="testimonial__subtitle">9 Time Escaper</h3>
@@ -136,7 +137,7 @@
 				<div class="row__medium-4">
 					<div class="testimonial">
 						<div class="testimonial__photo">
-							<img src="assets/images/testimonial-john.jpg">
+							<img class="lazyload" data-srcset="assets/images/testimonial-john.jpg">
 						</div>
 							<h3 class="testimonial__title">John Smith</h3>
 							<h4 class="testimonial__subtitle">4 Time Escaper</h3>
@@ -146,7 +147,7 @@
 				<div class="row__medium-4">
 					<div class="testimonial testimonial__last">
 						<div class="testimonial__photo">
-							<img src="assets/images/testimonial-cat.jpg">
+							<img class="lazyload" data-srcset="assets/images/testimonial-cat.jpg">
 						</div>
 							<h3 class="testimonial__title">Cat McKitty</h3>
 							<h4 class="testimonial__subtitle">6 Time Escaper</h3>
