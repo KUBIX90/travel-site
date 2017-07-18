@@ -530,7 +530,7 @@ img {max-width:100%;
 		font-size:1.1rem;
 		font-weight:100;
 		text-shadow:2px 2px 0 rgba(0, 0, 0, .1);
-		max-width:30rem;
+		max-width:25rem;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -539,7 +539,7 @@ img {max-width:100%;
 
 .large-hero__description {
 			
-		font-size:1.875rem
+		font-size:1.3rem
 	}
 	}
 
